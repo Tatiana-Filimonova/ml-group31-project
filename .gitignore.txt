@@ -1,3 +1,0 @@
-.gitignore
-NER_model.py
-from_card.py
