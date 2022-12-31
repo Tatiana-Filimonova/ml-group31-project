@@ -5,7 +5,7 @@ nlp_ner = pipeline(
     model="jplu/tf-xlm-r-ner-40-lang",
     tokenizer=(
         'jplu/tf-xlm-r-ner-40-lang',  
-        {"use_fast": True}),
+        {"use_fast": False}),
     framework="tf"
 )
 
